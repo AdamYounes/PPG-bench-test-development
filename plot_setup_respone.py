@@ -4,6 +4,7 @@
 Each trial: an AFG sync pulse at the start (used only to time-align the two
 logs, never plotted) followed by a voltage staircase. It handles both the LED rig (signal rises with V) and the
 LCD rig (signal falls with V). Set SETUP and run.
+Script was co-created with github copilot.
 """
 
 import os
