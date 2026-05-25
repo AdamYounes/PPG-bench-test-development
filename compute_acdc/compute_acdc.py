@@ -1,3 +1,7 @@
+"""
+Script used for calculating the AC peak to peak values, alongside the DC offset and AC/DC ratio.
+Script was co-created with github copilot.
+"""
 import pandas as pd
 import numpy as np
 from scipy import signal
