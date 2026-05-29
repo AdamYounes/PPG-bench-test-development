@@ -20,6 +20,16 @@ If you intend to run the hardware communication script (`afg_connection.py`) to 
    ```bash
    pip install pyvisa pandas numpy matplotlib scipy tektronix_func_gen
 
+## Printing Specifications
+
+The printing specifications for the provided stl files are the following : 
+* Printer : Elegoo Neptune 4(FDM)
+* Filament type : 1.75 mm PLA
+* Tempetures : 220°C(Extruder); 60°C(Bed)
+* Layer height : 0.2 mm
+* Infill : 20%
+* Supports : None
+
 ## Repository Structure
 
 * `afg_connection.py`: PyVISA script used to send commands and custom waveforms to the Tektronix AFG 1022, and to automate the linearity voltage sweeps.
